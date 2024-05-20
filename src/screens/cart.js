@@ -6,6 +6,17 @@ import { ScrollView } from "react-native-web";
 
 export default function Cart() {
     return <ScrollView>
-        <Text>YFGSDUIOPHDFIOJHSDFHODHO</Text>
+         <View style={styles.TopBarSearch}>
+            <Ionicons name="search" style={styles.Icon}/>
+            <TextInput style={styles.SearchTextInput} placeholder="Faça sua pesquisa"/>
+        </View>
+        <View style={styles.ViewContinueComprando}>
+            <Text style={styles.TextTopMenu}>Mensagem sobre os produtos em seu carrinho </Text>
+        </View>
+
+        <View style={styles.ViewContinueComprando}>
+            <Text>Subtotal:</Text>
+            <Text style={styles.TextTopMenu}> R$ 1200,00 </Text>
+        </View>
     </ScrollView>
 }

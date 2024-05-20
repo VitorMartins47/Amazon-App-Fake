@@ -88,6 +88,87 @@ export default StyleSheet.create({
         borderRadius: 16,
         textAlign: 'center'
 
+    },
+    Endereço:{
+        backgroundColor: "#00ffff",
+        flexDirection: 'row',
+        display: 'flex',
+
+
+
+    },
+
+    ViewProdutos:{
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        flexDirection: 'row',
+        rowGap: '5px',
+        paddingHorizontal: '10px',
+    },
+
+    ViewContinueComprando:{
+       
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        flexDirection: 'row',
+        rowGap: '5px',
+        paddingHorizontal: '10px',
+        marginVertical: '10px'
+    },
+
+
+    ImageProdutos:{
+        width:100,
+        height:100,
+        borderWidth: 10,
+        borderColor: "white"
+
+    },
+
+    AppDayBar:{
+        backgroundColor: "orange",
+        height: 40,
+        width:'100%',
+        display:'flex',
+        alignItems:'center',
+        justifyContent: 'space-between',
+        flexDirection: 'row',      
+        textAlign: 'center'
+    },
+
+    TextoAppDay:{
+        fontSize: 20,
+
+    },
+    OlaUserBar:{
+        backgroundColor: "lightblue",
+        flexDirection: 'row',
+        display: 'flex',
+    },
+
+    TextTopMenu:{
+        fontSize: 20,
+        fontWeight: 'bold'
+
+    },
+
+    BotaoConta:{
+        margin: 5,
+        padding: 5,
+        borderRadius: 5,
+        borderWidth: 1,
+        borderColor: 'black'
+
+    },
+    ViewBotoes:{
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        flexDirection: 'row',
+        rowGap: '5px',
+        paddingHorizontal: '50px',
     }
 
 })
