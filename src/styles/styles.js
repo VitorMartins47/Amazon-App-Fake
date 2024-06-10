@@ -6,7 +6,8 @@ const width = Dimensions.get('screen').width;
 export default StyleSheet.create({
 
     tela:{
-        flex:1
+        height: '100vh',
+        width: '100wh'
     },
 
     BackgroundAmazon:{
@@ -128,18 +129,15 @@ export default StyleSheet.create({
     },
 
     AppDayBar:{
-        backgroundColor: "orange",
-        height: 40,
-        width:'100%',
-        display:'flex',
-        alignItems:'center',
-        justifyContent: 'space-between',
-        flexDirection: 'row',      
-        textAlign: 'center'
+        width: '100%',
+        flex: 1,
+        flexDirection: 'column'
     },
 
     TextoAppDay:{
         fontSize: 20,
+        width: '100%',
+        textAlign: 'center'
 
     },
     OlaUserBar:{
@@ -169,6 +167,19 @@ export default StyleSheet.create({
         flexDirection: 'row',
         rowGap: '5px',
         paddingHorizontal: '50px',
+    },
+
+    ViewButtonCart:{
+        backgroundColor: 'orange',
+        textAlign: 'center',
+        alignSelf: 'center',
+        width: '100%',
+        height: 100,
+        marginHorizontal: 20,
+        marginTop: 50,
+        justifyContent: 'center',
+        alignContent: 'center',
+        borderRadius: 10
     }
 
 })

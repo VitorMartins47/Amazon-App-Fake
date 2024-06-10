@@ -18,5 +18,12 @@ export default function Cart() {
             <Text>Subtotal:</Text>
             <Text style={styles.TextTopMenu}> R$ 1200,00 </Text>
         </View>
+        <View>
+            <TouchableOpacity style={styles.ViewButtonCart}>
+                Fechar pedido
+            </TouchableOpacity>
+        </View>
+
+
     </ScrollView>
 }
