@@ -6,8 +6,8 @@ const width = Dimensions.get('screen').width;
 export default StyleSheet.create({
 
     tela:{
-        height: '100vh',
-        width: '100wh'
+        height: '100%',
+        width: '100%'
     },
 
     BackgroundAmazon:{
@@ -16,8 +16,8 @@ export default StyleSheet.create({
     },
 
     LogoAmazon: {
-        width: 300,
-        height: 300,
+        width: 200,
+        height: 100,
         marginVertical: 'auto',
         marginHorizontal :'auto',
         alignContent: 'center',
